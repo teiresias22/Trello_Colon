@@ -16,6 +16,9 @@
 		75751D212923B5C900538704 /* Trello_ColonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D202923B5C900538704 /* Trello_ColonTests.swift */; };
 		75751D2B2923B5C900538704 /* Trello_ColonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D2A2923B5C900538704 /* Trello_ColonUITests.swift */; };
 		75751D2D2923B5C900538704 /* Trello_ColonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D2C2923B5C900538704 /* Trello_ColonUITestsLaunchTests.swift */; };
+		75751D3A2923B77F00538704 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D392923B77F00538704 /* Card.swift */; };
+		75751D3C2923CF1300538704 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D3B2923CF1300538704 /* BoardList.swift */; };
+		75751D3F2923D01200538704 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751D3E2923D01200538704 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		75751D262923B5C900538704 /* Trello_ColonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trello_ColonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75751D2A2923B5C900538704 /* Trello_ColonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trello_ColonUITests.swift; sourceTree = "<group>"; };
 		75751D2C2923B5C900538704 /* Trello_ColonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trello_ColonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75751D392923B77F00538704 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		75751D3B2923CF1300538704 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
+		75751D3E2923D01200538704 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 				75751D0C2923B5C800538704 /* ContentView.swift */,
 				75751D0E2923B5C900538704 /* Assets.xcassets */,
 				75751D132923B5C900538704 /* Persistence.swift */,
+				75751D3D2923CF9C00538704 /* Model */,
 				75751D152923B5C900538704 /* Trello_Colon.xcdatamodeld */,
 				75751D102923B5C900538704 /* Preview Content */,
 			);
@@ -131,6 +138,16 @@
 				75751D2C2923B5C900538704 /* Trello_ColonUITestsLaunchTests.swift */,
 			);
 			path = Trello_ColonUITests;
+			sourceTree = "<group>";
+		};
+		75751D3D2923CF9C00538704 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75751D392923B77F00538704 /* Card.swift */,
+				75751D3B2923CF1300538704 /* BoardList.swift */,
+				75751D3E2923D01200538704 /* Board.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +282,9 @@
 			files = (
 				75751D142923B5C900538704 /* Persistence.swift in Sources */,
 				75751D172923B5C900538704 /* Trello_Colon.xcdatamodeld in Sources */,
+				75751D3C2923CF1300538704 /* BoardList.swift in Sources */,
+				75751D3A2923B77F00538704 /* Card.swift in Sources */,
+				75751D3F2923D01200538704 /* Board.swift in Sources */,
 				75751D0D2923B5C800538704 /* ContentView.swift in Sources */,
 				75751D0B2923B5C800538704 /* Trello_ColonApp.swift in Sources */,
 			);
