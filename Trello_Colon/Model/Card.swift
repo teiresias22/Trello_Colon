@@ -41,7 +41,7 @@ class Card: NSObject, ObservableObject, Identifiable, Codable {
 
 extension Card: NSItemProviderWriting {
     
-    static let typeIdentifier = "com.alfianlosari.TrelloClone.Card"
+    static let typeIdentifier = "kr.co.joonhwan.Trello-Colon.Card"
     
     static var writableTypeIdentifiersForItemProvider: [String] {
         [typeIdentifier]
