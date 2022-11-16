@@ -20,6 +20,7 @@
 		75ECBF2A2923E22600400E49 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF292923E22600400E49 /* Board+Stub.swift */; };
 		75ECBF2D2923E4CA00400E49 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF2C2923E4CA00400E49 /* BoardView.swift */; };
 		75ECBF2F29252C3E00400E49 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF2E29252C3E00400E49 /* BoardListView.swift */; };
+		75ECBF31292534A800400E49 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF30292534A800400E49 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		75ECBF292923E22600400E49 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
 		75ECBF2C2923E4CA00400E49 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		75ECBF2E29252C3E00400E49 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
+		75ECBF30292534A800400E49 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				75ECBF2C2923E4CA00400E49 /* BoardView.swift */,
 				75ECBF2E29252C3E00400E49 /* BoardListView.swift */,
+				75ECBF30292534A800400E49 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75751D172923B5C900538704 /* Trello_Colon.xcdatamodeld in Sources */,
+				75ECBF31292534A800400E49 /* CardView.swift in Sources */,
 				75751D3C2923CF1300538704 /* BoardList.swift in Sources */,
 				75751D3A2923B77F00538704 /* Card.swift in Sources */,
 				75ECBF2A2923E22600400E49 /* Board+Stub.swift in Sources */,

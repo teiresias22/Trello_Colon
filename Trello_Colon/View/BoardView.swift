@@ -19,7 +19,7 @@ struct BoardView: View {
             ScrollView(.horizontal) {
                 LazyHStack(alignment: .top, spacing: 24) {
                     ForEach(board.lists) { BoardList in
-                        Text(BoardList.name)
+                        BoardListView(board: board, boardList: BoardList)
                     }
                     .foregroundColor(Color.white)
                     Button("+ Add list") {
