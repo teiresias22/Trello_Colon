@@ -21,7 +21,6 @@ struct BoardView: View {
                     ForEach(board.lists) { BoardList in
                         BoardListView(board: board, boardList: BoardList)
                     }
-                    .foregroundColor(Color.white)
                     Button("+ Add list") {
                         
                     }

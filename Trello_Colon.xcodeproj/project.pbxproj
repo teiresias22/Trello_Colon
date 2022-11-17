@@ -21,6 +21,8 @@
 		75ECBF2D2923E4CA00400E49 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF2C2923E4CA00400E49 /* BoardView.swift */; };
 		75ECBF2F29252C3E00400E49 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF2E29252C3E00400E49 /* BoardListView.swift */; };
 		75ECBF31292534A800400E49 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF30292534A800400E49 /* CardView.swift */; };
+		75ECBF342926602F00400E49 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 75ECBF332926602F00400E49 /* Introspect */; };
+		75ECBF36292681A800400E49 /* View+AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECBF35292681A800400E49 /* View+AlertTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 		75ECBF2C2923E4CA00400E49 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		75ECBF2E29252C3E00400E49 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		75ECBF30292534A800400E49 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		75ECBF35292681A800400E49 /* View+AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertTextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ECBF342926602F00400E49 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +166,7 @@
 				75ECBF2C2923E4CA00400E49 /* BoardView.swift */,
 				75ECBF2E29252C3E00400E49 /* BoardListView.swift */,
 				75ECBF30292534A800400E49 /* CardView.swift */,
+				75ECBF35292681A800400E49 /* View+AlertTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +187,9 @@
 			dependencies = (
 			);
 			name = Trello_Colon;
+			packageProductDependencies = (
+				75ECBF332926602F00400E49 /* Introspect */,
+			);
 			productName = Trello_Colon;
 			productReference = 75751D072923B5C800538704 /* Trello_Colon.app */;
 			productType = "com.apple.product-type.application";
@@ -254,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 75751CFE2923B5C800538704;
+			packageReferences = (
+				75ECBF322926602F00400E49 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 75751D082923B5C800538704 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,6 +310,7 @@
 				75751D172923B5C900538704 /* Trello_Colon.xcdatamodeld in Sources */,
 				75ECBF31292534A800400E49 /* CardView.swift in Sources */,
 				75751D3C2923CF1300538704 /* BoardList.swift in Sources */,
+				75ECBF36292681A800400E49 /* View+AlertTextField.swift in Sources */,
 				75751D3A2923B77F00538704 /* Card.swift in Sources */,
 				75ECBF2A2923E22600400E49 /* Board+Stub.swift in Sources */,
 				75751D3F2923D01200538704 /* Board.swift in Sources */,
@@ -631,6 +643,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75ECBF322926602F00400E49 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75ECBF332926602F00400E49 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75ECBF322926602F00400E49 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		75751D152923B5C900538704 /* Trello_Colon.xcdatamodeld */ = {
