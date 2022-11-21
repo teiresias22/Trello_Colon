@@ -36,6 +36,7 @@ class Card: NSObject, ObservableObject, Identifiable, Codable {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(id, forKey: .id)
         try container.encode(boardListID, forKey: .boardListID)
+        try container.encode(content, forKey: .content)
     }
 }
 

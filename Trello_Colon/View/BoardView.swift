@@ -18,8 +18,8 @@ struct BoardView: View {
         NavigationView {
             ScrollView(.horizontal) {
                 LazyHStack(alignment: .top, spacing: 24) {
-                    ForEach(board.lists) { BoardList in
-                        BoardListView(board: board, boardList: BoardList)
+                    ForEach(board.lists) { boardList in
+                        BoardListView(board: board, boardList: boardList)
                     }
                     Button("+ Add list") {
                         
@@ -34,7 +34,6 @@ struct BoardView: View {
                 }
                 .padding()
             }
-//            .background(trelloBlueBackgroundColor)
             .background(Image("Image")
                 .resizable())
             .edgesIgnoringSafeArea(.bottom)
